@@ -1,5 +1,5 @@
 
-public class FibonacciSubscriber implements ISubscriber {
+public class FibonacciSubscriber implements ISubscriber, ITestable {
 
 	@Override
 	public void notifySubscriber(Topic topic) {
@@ -16,5 +16,10 @@ public class FibonacciSubscriber implements ISubscriber {
 			b = tmp + b;
 		}
 		return b;
+	}
+
+	@Override
+	public boolean test() {
+		return this.fib(6) == 8;
 	}
 }
