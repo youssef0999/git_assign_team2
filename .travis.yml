@@ -1,0 +1,9 @@
+language: java
+
+jdk:
+ - oraclejdk9
+
+script:
+  - cd src
+  - javac Test.java
+  - java Test
