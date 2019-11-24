@@ -1,15 +1,11 @@
-import java.util.Scanner;
 
 public class Test {
-	private static ISubscriber subscribers [] = {
+	private static ITestable subscribers [] = {
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
 	};
 	public static void main(String[] args) {
-		Topic mathTopic = new Topic();
-		for (ISubscriber sub : subscribers) {
-			mathTopic.addSubscriber(sub);
-		}
-		mathTopic.dispatchEvent("9");
+		for (ITestable sub : subscribers)
+			if(sub.test() == false) System.exit(1); // test fails
 	}
 }
