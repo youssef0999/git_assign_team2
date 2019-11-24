@@ -5,6 +5,7 @@ public class Main {
 			new FibonacciSubscriber(),
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
+			new CircleCircumference(),
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
