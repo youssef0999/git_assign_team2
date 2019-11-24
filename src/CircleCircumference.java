@@ -15,7 +15,7 @@ public class CircleCircumference implements ISubscriber,ITestable {
 	@Override
 	public boolean test() {
 		
-		return this.CircleCircumference(5)==31.4;
+		return Math.abs(this.CircleCircumference(5) - 31.4) < 1e-5;
 		
 	}
 
