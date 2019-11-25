@@ -15,7 +15,7 @@ public class CircleVolume  implements ISubscriber,ITestable {
 	@Override
 	public boolean test() {
 		
-		return (this.CircleVolume(5))==532.33;
+		return Math.abs(this.CircleVolume(5) - 532.33)< 1e-5;
 		
 	}
 
