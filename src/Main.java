@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Main {
 	private static ISubscriber subscribers [] = {
+			new FibonacciSubscriber(),
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
 			new CircleCircumference(),
