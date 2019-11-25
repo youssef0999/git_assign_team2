@@ -5,6 +5,7 @@ public class Test {
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
 			new CircleCircumference(),
+			new CircleVolume(),
 			new TwoPowerN()
 	};
 	public static void main(String[] args) {
