@@ -6,7 +6,8 @@ public class Main {
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
 			new CircleCircumference(),
-			new TwoPowerN()
+			new TwoPowerN(),
+			new MultiplicationSeries()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
