@@ -8,6 +8,7 @@ public class Test {
 			new MultiplicationSeries(),
 			new TwoPowerN(),
 			new CircleVolume(),
+			new LucaSeries() 
 	};
 	public static void main(String[] args) {
 		for (ITestable sub : subscribers)

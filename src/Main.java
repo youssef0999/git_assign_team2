@@ -9,6 +9,7 @@ public class Main {
 			new MultiplicationSeries(),
 			new TwoPowerN(),
 			new CircleVolume(),
+			new LucaSeries() 
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
