@@ -2,10 +2,12 @@ import java.util.Scanner;
 
 public class Main {
 	private static ISubscriber subscribers [] = {
+			new FibonacciSubscriber(),
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
 			new CircleCircumference(),
-			new MultiplicationSeries()
+			new MultiplicationSeries(),
+			new TwoPowerN(),
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
