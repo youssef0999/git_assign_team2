@@ -7,6 +7,7 @@ public class Test {
 			new CircleCircumference(),
 			new MultiplicationSeries(),
 			new TwoPowerN(),
+			new CircleVolume(),
 	};
 	public static void main(String[] args) {
 		for (ITestable sub : subscribers)

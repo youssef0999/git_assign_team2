@@ -8,6 +8,7 @@ public class Main {
 			new CircleCircumference(),
 			new MultiplicationSeries(),
 			new TwoPowerN(),
+			new CircleVolume(),
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
