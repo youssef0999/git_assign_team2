@@ -4,6 +4,7 @@ public class Test {
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
 			new CircleCircumference(),
+			new MultiplicationSeries()
 	};
 	public static void main(String[] args) {
 		for (ITestable sub : subscribers)
