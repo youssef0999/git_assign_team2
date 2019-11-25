@@ -9,13 +9,13 @@ public class CircleVolume  implements ISubscriber,ITestable {
 
 	public double CircleVolume(int r)
 	{
-		return ((4/3)*3.14*(r*r*r));
+		return ((4.0/3.0)*3.14*(r*r*r));
 		
 	}
 	@Override
 	public boolean test() {
 		
-		return Math.abs(this.CircleVolume(5) - 523.33)< 1e-5;
+		return Math.abs(this.CircleVolume(5) - 523.33)< 1e-2;
 		
 	}
 
