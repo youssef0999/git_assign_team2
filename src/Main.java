@@ -11,7 +11,8 @@ public class Main {
 			new CircleVolume(),
 			new LucaSeries(),
 			new SphereArea(),
-			new SummationSeries()
+			new SummationSeries(),
+			new CircleArea()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
