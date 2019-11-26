@@ -9,7 +9,7 @@ public class CircleArea implements ISubscriber,ITestable{
 		System.out.println("CircleArea ="+CircleArea(r));
 	}
 	
-	public double CircleArea(int r)
+	public double CircleArea(double r)
 	{
 		double rd = r;
 		double sqpow = 2;
@@ -21,7 +21,7 @@ public class CircleArea implements ISubscriber,ITestable{
 	@Override
 public boolean test() {
 		
-		return Math.abs(this.CircleArea(10) - 314) ==0;
+		return Math.abs(this.CircleArea(10) - 314) < 1e-5;
 		
 	}
 
