@@ -10,7 +10,8 @@ public class Test {
 			new CircleVolume(),
 			new LucaSeries(),
 			new SphereArea(),
-			new SummationSeries()
+			new SummationSeries(),
+			new CircleArea()
 	};
 	public static void main(String[] args) {
 		for (ITestable sub : subscribers)
