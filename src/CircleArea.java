@@ -21,7 +21,7 @@ public class CircleArea implements ISubscriber,ITestable{
 	@Override
 public boolean test() {
 		
-		return Math.abs(this.CircleArea(10) - 314) < 1e-5;
+		return Math.abs(this.CircleArea(10) - 314) ==0;
 		
 	}
 
