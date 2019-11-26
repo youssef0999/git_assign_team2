@@ -10,7 +10,8 @@ public class Main {
 			new TwoPowerN(),
 			new CircleVolume(),
 			new LucaSeries(),
-			new SphereArea()
+			new SphereArea(),
+			new SummationSeries()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();

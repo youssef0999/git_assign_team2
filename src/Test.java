@@ -9,7 +9,8 @@ public class Test {
 			new TwoPowerN(),
 			new CircleVolume(),
 			new LucaSeries(),
-			new SphereArea()
+			new SphereArea(),
+			new SummationSeries()
 	};
 	public static void main(String[] args) {
 		for (ITestable sub : subscribers)
